@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #333;
+  font-size: 2rem;
+}
+.main {
+  margin: 15rem auto;
+  width: 60vw;
+  height: auto;
+  background-color: white;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  border-radius: 1rem;
+}
+.all {
+  padding: 3rem 3rem;
+}
+.entry-input {
+  display: block;
+  width: 50vw;
+  height: 4rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  outline: none;
+}
+input {
+  padding-left: 1.5rem;
+}
+.entry-input:hover,
+.entry-input:active {
+  cursor: pointer;
+  border-color: black;
+}
+.entry {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.add {
+  padding: 0rem 2rem;
+  background-color: black;
+  border-radius: 0.5rem;
+  border: none;
+  color: #fff;
+}
+h2 {
+  margin: 1.5rem 0rem;
+}
+
+.container {
+  background-color: #333;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.toDos {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 1rem;
+  width: 40vw;
+}
+.text {
+  padding: 1rem;
+  display: inline-block;
+  width: 37vw;
+}
+.edit,
+.delete {
+  padding: 1rem;
+}

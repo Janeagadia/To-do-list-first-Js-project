@@ -1,0 +1,74 @@
+/* @ 60em */
+@media screen and (max-width: 60em) {
+  html {
+    font-size: 40%;
+  }
+  .main {
+    margin: 19rem auto;
+  }
+  .text {
+    width: 36vw;
+  }
+}
+/* @ 44em, 690px*/
+@media screen and (max-width: 44em) {
+  html {
+    font-size: 30%;
+  }
+  .toDos {
+    width: 10vw;
+  }
+  .edit,
+  .delete {
+    padding: 0.4em;
+  }
+  .main {
+    margin: 25rem auto;
+  }
+  .text {
+    width: 32vw;
+  }
+}
+/* @ 33em, 530px */
+@media screen and (max-width: 33em) {
+  html {
+    font-size: 28%;
+  }
+  .text {
+    width: 30vw;
+  }
+  .edit,
+  .delete {
+    font-size: 1em;
+    padding: 0.6em;
+  }
+}
+/* @ 27em, 430px */
+@media screen and (max-width: 27em) {
+  html {
+    font-size: 28%;
+  }
+  .text {
+    width: 28vw;
+  }
+  .edit,
+  .delete {
+    font-size: 0.8em;
+    padding: 0.4em;
+  }
+  .entry-input {
+    width: 35vw;
+  }
+}
+
+/* @ 21em, 330px */
+@media screen and (max-width: 21em) {
+  .toDos {
+    display: flex;
+    flex-direction: column;
+  }
+  .entry {
+    display: flex;
+    flex-direction: column;
+  }
+}
